@@ -1,0 +1,7 @@
+{
+    "alt": "Persona mirando el celular",
+    "className":"object-contain position-top-1",
+    "desktopClassName": "bg-none bg-bottom",
+    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/personaCelular.jpg",
+    "imgDesktop": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/personaCelularDesktop.jpg"
+}

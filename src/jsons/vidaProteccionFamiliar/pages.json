@@ -1,0 +1,23 @@
+[{
+    "id":0,
+    "title":"PREVENTIPS",
+    "path":"/home/informacion",
+    "className": ".informacion",
+    "hasFooter":true,
+    "toPreventips":true,
+    "cubreParent":true
+},
+{
+    "id":1,
+    "title":"COBRAR SEGURO",
+    "path":"/home/cobrarSeguro",
+    "className":".cobrar",
+    "hasFooter":true
+},
+{
+    "id":2,
+    "title":"CONTACTO",
+    "path":"/home/contacto",
+    "className":".contacto",
+    "onlyDesktop":true
+}]

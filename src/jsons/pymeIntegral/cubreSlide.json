@@ -1,0 +1,46 @@
+[{
+        "id": 0,
+        "alt": "Fuego Caja",
+        "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/fuegoCaja.png",
+        "titulo": "Incendio",
+        "texto": "Incendio del mobiliario y mercadería. Además cubrimos remoción de escombros y daño por granizo."
+    },
+    {
+        "id": 1,
+        "alt": "Robo",
+        "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/menuRobo.png",
+        "titulo": "Robo",
+        "texto": "Robo de tus bienes y mercadería o gastos ocasionados por robo."
+    }, {
+        "id": 2,
+        "alt": "PC",
+        "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/pc.png",
+        "titulo": "Equipos electrónicos",
+        "texto": "Equipos electrónicos cubiertos por robo, incendio o accidente."
+    }, {
+        "id": 3,
+        "alt": "Vidrio Roto",
+        "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/brokenGlass.png",
+        "titulo": "Demandas de terceros",
+        "texto": "Demandas de terceros Responsabilidad Civil por daños.",
+        "conoceMas": true
+    }, {
+        "id": 4,
+        "textLast": "Sumás las coberturas que necesites:",
+        "linkOneLine": true,
+        "rarePadding": true,
+        "last": [{
+            "id": 0,
+            "texto": "Incendio de la construcción del inmueble"
+        }, {
+            "id": 1,
+            "texto": "Daños por agua a la mercadería y mobiliario."
+        }, {
+            "id": 2,
+            "texto": "Cobertura de robo para la recaudación."
+        }, {
+            "id": 3,
+            "texto": "Responsabilidad civil para marquesinas, ascensores o alimentos"
+        }]
+    }
+]

@@ -1,0 +1,21 @@
+{
+    "titulo":"¡Con los ojos bien abiertos!",
+    "lista": [
+        {
+            "id":0,
+            "texto":"Generalmente un ladrón intenta camuflarse en el tumulto y actúa aprovechándose de la distracción. Por eso es importante que estés bien atento en la calle, consciente de tu entorno."
+        },
+        {
+            "id":1,
+            "texto":"Tratá de tener a mano en tu bolso o cartera aquello que sabés que vas a necesitar. De esta forma evitás andar revolviendo mientras caminás, situación que los ladrones aprovechan para robar."
+        },
+        {
+            "id":2,
+            "texto":"Asimismo, si vas a sacar algún objeto de valor, recordá hacerlo en un lugar cerrado y no en plena calle."
+        },
+        {
+            "id":3,
+            "texto":"Por último, si pasás por un lugar muy concurrido o quedaste en el medio de una multitud, llevá la mochila adelante así no la perdés de vista en ningún momento."
+        }
+    ]
+}

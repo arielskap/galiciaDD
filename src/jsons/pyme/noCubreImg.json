@@ -1,0 +1,17 @@
+[{
+    "alt": "Agarra",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/takeOn.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/takeOff.png"
+},{
+    "alt": "Mesa",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/mesaBlueOk.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/mesaGrisOk.png"
+},{
+    "alt": "Llave",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/keyOn.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/keyOff.png"
+},{
+    "alt": "PC",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenPcOn.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenPcOff.png"
+}]

@@ -1,0 +1,188 @@
+[{
+    "id":0,
+    "children": [
+        {
+            "id": 0,
+            "alt": "Cerrajería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/cerrajeria.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/cerrajeriaOn.png"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "alt": "Plomería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/plomeria.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/plomeriaOn.png"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "alt": "Electricidad",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/electricidadOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/electricidad.png"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "alt": "Vidriería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenGlassCircleOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenGlassCircleOn.png"
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":1,
+    "children": [
+        {
+            "id": 0,
+            "alt": "Lámparas",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/electricidadOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/electricidad.png"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "alt": "Plomería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/plomeria.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/plomeriaOn.png"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "alt": "Cerrajería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/cerrajeria.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/cerrajeriaOn.png"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "alt": "Vidriería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenGlassCircleOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/brokenGlassCircleOn.png"
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":2,
+    "children": [
+        {
+            "id":0,
+            "alt": "Seguridad y Vigilancia",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/seguridad.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/seguridadOn.png"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "alt": "Prestaciones especiales",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/muebles.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/mueblesOn.png"
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":3,
+    "children": [
+        {
+            "id":0,
+            "alt": "Telefonicamente",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/operadorOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/operadorOn.png"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "alt": "Whatsapp",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/whatsappOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/pyme/assets/whatsappOn.png"
+                }
+            ]
+        }
+    ]
+}]

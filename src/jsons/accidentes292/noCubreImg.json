@@ -1,0 +1,17 @@
+[{
+    "alt": "pesos",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/pesosBlue.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/pesosM.png"
+}, {
+    "alt": "lluvia",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/lluviaBlue.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/lluviaM.png"
+}, {
+    "alt": "mesa",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/mesaBlueOk.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/mesaGrisOk.png"
+}, {
+    "alt": "paraguas",
+    "imgOn": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/paraguasBlue.png",
+    "imgOff": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/paraguasM.png"
+}]

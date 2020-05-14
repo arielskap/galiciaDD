@@ -1,0 +1,20 @@
+{
+  "lista": [
+    {
+      "id": 0,
+      "texto": "Lo mejor para tener una vida plena y saludable es acercarse al tan famoso equilibrio 'físico-emocional'."
+    },
+    {
+      "id": 1,
+      "texto": "En el aspecto físico es muy importante que sigas una dieta equilibrada y que se adapte a lo que tu cuerpo necesita. Lo mismo ocurre con el ejercicio. Elegí una actividadque te guste e intentá practicarla con continuidad."
+    },
+    {
+      "id": 2,
+      "texto": "Sabemos que es difícil evitar el estrés en estos tiempos, pero todo lo que puedas contribuir en reducirlo tu cuerpo te lo va a agradecer"
+    },
+    {
+      "id": 3,
+      "texto": "Lo más importante de todo: reíte, disfrutá y compartí valiosos momentos con las personas que te hacen bien. ¡La vida es una sola y vale la pena vivirla!"
+    }
+  ]
+}

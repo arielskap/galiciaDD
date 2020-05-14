@@ -1,0 +1,17 @@
+{
+    "titulo":"¡Con los ojos bien abiertos!",
+    "lista": [
+        {
+            "id":0,
+            "texto":"Generalmente un ladrón intenta camuflarse en el tumulto y actúa aprovechándose de la distracción. Por eso es importante que estés bien atento en la calle, consciente de tu entorno."
+        },
+        {
+            "id":1,
+            "texto":"Acordate de ponerle siempre una contraseña a tu tablet, notebook o netbook. De esta manera, vas a evitar que la información que contenga caiga en manos equivocadas."
+        },
+        {
+            "id":2,
+            "texto":"Asimismo, te recomendamos que hagas back-ups periódicos de tus dispositivos o bien que almacenes la información en la nube. Lo mismo aplica para el caso de las cámaras de fotos."
+        }
+    ]
+}

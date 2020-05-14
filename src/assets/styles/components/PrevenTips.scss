@@ -1,0 +1,20 @@
+@import '../Vars.scss';
+
+.flotante {
+    top: -2rem;
+}
+
+.flotante__texto {
+    font-family: $fuente-extraBold, Arial, Helvetica, sans-serif;
+}
+
+.main__preventips__flotante .bg-lineas-diagonales {
+    background: repeating-linear-gradient(107deg,
+            rgba(0, 0, 0, 0) 10px,
+            rgba(0, 0, 0, 0) 14px,
+            $orangeGalicia 1px,
+            $orangeGalicia 15px);
+    height: 50%;
+    width: 120%;
+    z-index: 10;
+}

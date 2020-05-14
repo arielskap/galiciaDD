@@ -1,0 +1,15 @@
+[{
+    "id":0,
+    "title":"COBRAR SEGURO",
+    "path":"/home/cobrarSeguro",
+    "className":".cobrar",
+    "hasFooter":true,
+    "cubreParent":true
+},
+{
+    "id":1,
+    "title":"CONTACTO",
+    "path":"/home/contacto",
+    "className":".contacto",
+    "onlyDesktop":true
+}]

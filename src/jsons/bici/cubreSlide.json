@@ -1,0 +1,19 @@
+[{
+    "id":0,
+    "alt":"Ladron",
+    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/bici/assets/menuRobo.png",
+    "titulo":"Si te roban la bici",
+    "texto":"tenés disponible una suma asegurada para reponerla."
+},
+{
+    "id":1,
+    "alt":"Bicicleta",
+    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/bici/assets/menuBicicleta.png",
+    "texto":"Con tu seguro estás cubierto las 24 hs a lo largo y ancho del país. Así que solo preocupate por elegir tu recorrido y…¡a rodar!"
+},
+{
+    "id":2,
+    "alt":"Mano",
+    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/bici/assets/menuMano.png",
+    "texto":"Entedemos por “robo” un hecho que contemple el uso de violencia o intimidación en las personas, o violencia en las cosas. Un hurto, pérdida o extravío no están alcanzados por esta cobertura."
+}]
