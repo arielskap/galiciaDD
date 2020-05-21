@@ -1,15 +1,11 @@
 const path = require('path');
 const glob = require('glob');
 const HtmlWebPackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const webpack = require('webpack');
-const AddAssetHtmlPlugin = require('add-asset-html-webpack-plugin');
-const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
 const TersetJSPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
-const PurgecssPlugin = require('purgecss-webpack-plugin');
-const HtmlCriticalWebpackPlugin = require('html-critical-webpack-plugin');
-const manifest = require('./modules-manifest.json');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const InlineChunkWebpackPlugin = require('react-dev-utils/InlineChunkHtmlPlugin');
 
 const PATHS = {
   src: path.join(__dirname, 'src'),
@@ -21,8 +17,7 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'js/[name].[hash].js',
-    chunkFilename: 'js/[id].[chunkhash].js',
+    filename: 'bundle.js',
   },
   optimization: {
     minimizer: [
@@ -30,8 +25,6 @@ module.exports = {
       new OptimizeCSSAssetsPlugin(),
     ],
   },
-  target: 'web',
-  devtool: 'source-map',
   resolve: {
     extensions: ['.js', '.jsx'],
   },
@@ -45,10 +38,22 @@ module.exports = {
         },
       },
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader',
+          },
+        ],
+      },
+      {
         test: /\.css$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: 'style-loader',
+            options: {
+              insert: 'head', // insert style tag inside of <head>
+              injectType: 'singletonStyleTag', // this is for wrap all your style in just one style tag
+            },
           },
           {
             loader: 'css-loader',
@@ -63,77 +68,60 @@ module.exports = {
         test: /\.scss$/,
         use: [
           {
-            loader: MiniCssExtractPlugin.loader,
+            loader: 'style-loader',
+            options: {
+              insert: 'head', // insert style tag inside of <head>
+              injectType: 'singletonStyleTag', // this is for wrap all your style in just one style tag
+            },
           },
           'css-loader',
           'sass-loader',
         ],
       },
       {
-        test: /\.jpg|png|gif|woff|eot|ttf|otf|svg|mp4|webm$/,
-        use: {
-          loader: 'url-loader',
-          options: {
-            limit: 1000,
-            name: '[hash].[ext]',
-            outputPath: 'assets',
+        test: /\.(png|gif|jpg)$/,
+        use: [
+          {
+            'loader': 'url-loader',
+            options: {
+              name: 'assets/[hash].[ext]',
+            },
           },
-        },
+        ],
       },
       {
         test: /\.svg$/,
         loader: 'svg-url-loader',
         options: {
-          limit: 10 * 1024,
           noquotes: true,
         },
       },
       {
-        test: /\.(jpg|png|gif|svg)$/,
-        loader: 'image-webpack-loader',
-        enforce: 'pre',
+        test: /\.(woff|woff2|eot|ttf|otf)$/,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              name: 'fonts/[name].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
   plugins: [
-    new MiniCssExtractPlugin({
-      filename: './[name].[hash].css',
-      chunkFilename: './[id].[hash].css',
-    }),
     new HtmlWebPackPlugin({
-      favicon: './src/assets/static/logo.png',
-      template: path.resolve(__dirname, 'public/index.html'),
-      filename: './index.html',
-      excludeChunks: ['server'],
+      template: './public/index.html',
+      inlineSource: '.(js|css)$',
     }),
     new PurgecssPlugin({
       paths: glob.sync(`${PATHS.src}/**/*`, { nodir: true }),
       defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
       keyframes: true,
     }),
-    new webpack.DllReferencePlugin({
-      manifest,
-    }),
-    new AddAssetHtmlPlugin({
-      filepath: path.resolve(__dirname, 'dist/js/*.dll.js'),
-      outputPath: 'js',
-      publicPath: './js',
-    }),
+    new InlineChunkWebpackPlugin(HtmlWebPackPlugin, [/\.(js|css)$/]),
     new CleanWebpackPlugin({
       cleanOnceBeforeBuildPatterns: ['**/app.*'],
-    }),
-    new HtmlCriticalWebpackPlugin({
-      base: path.resolve(__dirname, 'dist'),
-      src: 'index.html',
-      dest: 'index.html',
-      inline: true,
-      minify: true,
-      extract: true,
-      width: 375,
-      height: 565,
-      penthouse: {
-        blockJSRequests: false,
-      },
     }),
   ],
 };

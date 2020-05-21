@@ -5,6 +5,7 @@ import ButtonLink from '../components/ButtonLink';
 import { changeDevice } from '../funciones';
 import '../assets/styles/components/Informacion.scss';
 import InformacionList from '../components/InformacionList';
+import InformacionCiudad from '../components/dinamic/InformacionCiudad';
 
 const Informacion = () => {
   const { titulo, subTitulo, texto, lista, collapse } = json;
@@ -24,6 +25,7 @@ const Informacion = () => {
           <h2 className='text-black montserrat-b mb-4 lg:text-lg'>{subTitulo}</h2>
         )}
         <p className={titulo || subTitulo ? 'mb-2 lg:text-lg' : 'mt-8 mb-2 lg:text-lg'}>{texto}</p>
+        <InformacionCiudad />
         {collapse ? (
           <ul className='list-disc list-inside lg:grid lg:grid-cols-2 lg:text-base lg:gap-4 mb-16'>
             {lista.map((row) => {

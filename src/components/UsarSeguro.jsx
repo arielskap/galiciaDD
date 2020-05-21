@@ -12,7 +12,7 @@ const UsarSeguro = () => {
     <div className='usarSeguro mb-12 px-2 lg:px-0 lg:mb-24'>
       <h2 className='text-center mb-2 montserrat-b text-lg lg:text-2xl'>¿Qué hacer en caso que tengas que usar el seguro?</h2>
       <p className='text-center mb-8 montserrat-l text-sm'>
-        Se tienen que contactar con nosotros, dentro de
+        Te tenes que comunicar con nosotros, dentro de
         {' '}
         {lapsoTiempo}
         {' '}

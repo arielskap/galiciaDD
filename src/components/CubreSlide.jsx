@@ -6,6 +6,7 @@ import json from '../jsons/json/cubreSlide.json';
 import jsonCubre from '../jsons/json/cubre.json';
 import '../assets/styles/components/CubreSlide.scss';
 import whiteBar from '../assets/static/white3.png';
+import CubreCiudad from './dinamic/CubreCiudad';
 
 smoothscroll.polyfill();
 window.__forceSmoothScrollPolyfill__ = true;
@@ -178,6 +179,7 @@ class CubreSlide extends React.Component {
                   }
                 </h2>
                 <p className={`text-base lg:text-xs montserrat-l text-gray section__wrapper__description ${listPosition}`} dangerouslySetInnerHTML={{ __html: texto }} />
+                { id === 0 && <CubreCiudad />}
                 {
                   lista && (
                     <ul className={`list-disc text-xs montserrat-l text-gray section__wrapper__description ml-10 lg:ml-2 ${listPosition} ${doubleList && 'grid grid-cols-2'}`}>

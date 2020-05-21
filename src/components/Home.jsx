@@ -5,9 +5,11 @@ import '../assets/styles/components/Home.scss';
 import logo from '../assets/static/logo.png';
 import ArrowBottom from './ArrowBottom';
 import arrowSimple from '../assets/static/arrowSimple.png';
+import Hello from './dinamic/Hello';
 
 class Home extends React.Component {
   render() {
+    const device = changeDevice();
     const { imgPrincipal } = json;
     const { img } = json;
     const { texto } = json;
@@ -26,6 +28,7 @@ class Home extends React.Component {
           <div className='w-full'>
             <img className={`object-cover ${className} w-full home__img`} src={imgPrincipal} alt={altPrincipal} />
           </div>
+          {device === 'desktop' && <Hello />}
           <div className='absolute home__seguro-header lg:w-full'>
             <div className='lg:ml-48'>
               <img className='object-contain h-48 lg:h-64 w-auto lg:w-auto home__img-hogar' src={img} alt={alt} />
@@ -34,22 +37,7 @@ class Home extends React.Component {
           </div>
         </div>
         <div className='flex flex-wrap mt-24 lg:mt-4'>
-          <div className='home__bottom-parent w-full text-center mb-4 lg:text-left'>
-            <p className='home__bottom-p text-xl lg:text-2xl xl:text-4xl montserrat-l text-dark-gray'>
-              {
-                texto2 ?
-                  (
-                    <>
-                      {texto}
-                      {' '}
-                      <br className='lg:hidden' />
-                      {texto2}
-                    </>
-                  ) :
-                  (<b>{texto}</b>)
-              }
-            </p>
-          </div>
+          {device === 'mobile' && <Hello />}
           <div className='w-full lg:absolute home__button-arrow'>
             <div className='flex justify-center'>
               { changeDevice() === 'mobile' ? (
