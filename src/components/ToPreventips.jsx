@@ -19,7 +19,7 @@ const ToPreventips = () => {
     }
   }
   if (titulo) {
-    titulo = <h3 className='preventips__anticipate-first text-2xl lg:mt-24 lg:text-3xl'>{titulo}</h3>;
+    titulo = <h3 className='preventips__anticipate-first text-2xl lg:mt-24 lg:text-3xl'>{`${titulo}, {{firstName}}`}</h3>;
   }
   if (typeof texto === 'object') {
     className = 'lg:mr-64 lg:pr-32';

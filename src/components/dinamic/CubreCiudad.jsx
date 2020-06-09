@@ -4,7 +4,7 @@ const CubreCiudad = () => {
   return (
     <div>
       <p className='montserrat-m text-sm'>
-        *Tenes bonificion extra en
+        *Tenes bonificacion extra en
         {' '}
         {'{{city}}'}
       </p>

@@ -1,264 +1,249 @@
 [{
-    "id": 0,
-    "children": [{
+    "id":0,
+    "children": [
+        {
             "id": 0,
             "alt": "Electricidad",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "alt": "Gas",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/gas.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/gasOn.png"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "alt": "Plomería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeria.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeriaOn.png"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "alt": "Destapaciones",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/destapaciones.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/destapacionesOn.png"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "alt": "Cerrajería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeria.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeriaOn.png"
-                }
-            ]
-        }
-    ]
-},
-{
-    "id": 1,
-    "children": [{
-            "id": 0,
-            "alt": "Electricidad",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
                 }
             ]
         },
         {
             "id": 1,
             "alt": "Plomería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeria.png"
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeriaOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeriaOn.png"
                 }
             ]
         },
         {
             "id": 2,
             "alt": "Cerrajería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeria.png"
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeriaOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeriaOn.png"
                 }
             ]
         },
         {
-            "id": 3,
-            "alt": "Gas",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/gas.png"
+            "id":3,
+            "alt": "Cristalería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/gasOn.png"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "alt": "Vidrería y Herrería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieria.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieriaOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieriaOn.png"
                 }
             ]
         }
     ]
 },
 {
-    "id": 2,
-    "children": [{
+    "id":1,
+    "children": [
+        {
             "id": 0,
-            "alt": "Equipos frío calor",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/aire_0.png"
+            "alt": "Lámparas",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/aire_1.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
                 }
             ]
         },
         {
-            "id": 1,
-            "alt": "Estufas",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/estufas_0.png"
+            "id":1,
+            "alt": "Plomería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/estufas_1.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/plomeriaOn.png"
                 }
             ]
         },
         {
-            "id": 2,
-            "alt": "Poda de árboles",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/poda_0.png"
+            "id":2,
+            "alt": "Cerrajería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/poda_1.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/cerrajeriaOn.png"
                 }
             ]
         },
         {
-            "id": 3,
-            "alt": "Limpieza de canaletas",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/canaletas_0.png"
+            "id":3,
+            "alt": "Vidriería",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieria.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/canaletas_1.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/vidrieriaOn.png"
                 }
             ]
         }
     ]
 },
 {
-    "id": 3,
-    "children": [{
-            "id": 0,
-            "alt": "Seguridad y Vigilancia",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/seguridad.png"
+    "id":2,
+    "children": [
+        {
+            "id":0,
+            "alt": "Muebles",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/muebles.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/seguridadOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/mueblesOn.png"
                 }
             ]
         },
         {
-            "id": 1,
-            "alt": "Guarda de muebles",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/muebles.png"
+            "id":1,
+            "alt": "Computadora",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/brokenPcOff.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/mueblesOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/brokenPcOn.png"
                 }
             ]
         },
         {
-            "id": 2,
-            "alt": "Hospedaje",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/hospedaje.png"
+            "id":2,
+            "alt": "Equipo electrógeno",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
                 },
                 {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/hospedajeOn.png"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "alt": "Lavandería",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/lavanderia.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/lavanderiaOn.png"
-                }
-            ]
-        },
-        {
-            "id": 4,
-            "alt": "Restaurante",
-            "switch": [{
-                    "id": 0,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/restaurante.png"
-                },
-                {
-                    "id": 1,
-                    "img": "http://www.dynamicdoc.com.ar/galiciaSeguros/images/restauranteOn.png"
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
                 }
             ]
         }
     ]
-}
-]
+},
+{
+    "id":3,
+    "children": [
+        {
+            "id":0,
+            "alt": "Equipos de frío/calor",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/aire_0.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/aire_1.png"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "alt": "Estufas y cocinas",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/estufas_0.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/estufas_1.png"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "alt": "Mantenimiento de grupo electrógeno",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidadOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/electricidad.png"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "alt": "Matafuegos",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/destapaciones.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/destapacionesOn.png"
+                }
+            ]
+        }
+    ]
+},
+{
+    "id":4,
+    "children": [
+        {
+            "id":0,
+            "alt": "Telefonicamente",
+            "switch":[
+                {
+                    "id":0,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/operadorOff.png"
+                },
+                {
+                    "id":1,
+                    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/operadorOn.png"
+                }
+            ]
+        }
+    ]
+}]

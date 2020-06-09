@@ -1,6 +1,11 @@
 {
-    "alt":"familia",
-    "texto":"¿QUÉ TE CUBRE?",
-    "imgPrincipal":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/familia.jpg",
-    "imgDesktop":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/familiaDesktop.jpg"
+    "goTo": ".noCubre",
+    "alt":"Persona Concentrada",
+    "texto":"¿Qué te cubrimos?",
+    "imgPrincipal":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/personaConcentrada.jpg",
+    "imgDesktop":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/personaConcentradaDesktop.jpg",
+    "hasLast": true,
+    "orangeText1": "El seguro",
+    "orangeText2": "lo armás vos.",
+    "bold": true
 }

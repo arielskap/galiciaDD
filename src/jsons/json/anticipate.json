@@ -1,61 +1,33 @@
 [
   {
     "id": 0,
-    "titulo": "Incendio",
+    "titulo": "Robos",
     "lista": [
       {
         "id": 0,
-        "texto": "No te olvides de tener siempre un matafuegos en tu casa, cargado y en regla."
+        "texto": "En lo posible, dejá siempre encendidas las luces de la fachada cuando el comercio permanezca cerrado."
       },
       {
         "id": 1,
-        "texto": "No sobrecargues los enchufes."
+        "texto": "Colocá la mercadería de mayor valor lo más lejos de la puerta de ingreso."
       },
       {
         "id": 2,
-        "texto": "Evitá almacenar los productos químicos o de limpieza en armarios sobre la cocina."
+        "texto": "Si tenés que transportar dinero o mercancías de valor, intentá que cada viaje sea en días y horarios diferentes."
       }
     ]
   },
   {
     "id": 1,
-    "titulo": "Electricidad",
+    "titulo": "Incendio",
     "lista": [
       {
         "id": 0,
-        "texto": "No uses artefactos eléctricos en ambientes húmedos o en contacto con el agua, como el baño o el lavadero."
+        "texto": "Comunicales a tus empleados cómo deben actuar en caso de una emergencia y dónde pueden encontrar el matafuegos y el botiquín."
       },
       {
         "id": 1,
-        "texto": "Al desenchufarlos, no tires de los cables."
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "titulo": "Robos",
-    "lista": [
-      {
-        "id": 0,
-        "texto": "Por más que estés en tu casa, cerrá la puerta con llave y dejala puesta en el picaporte."
-      },
-      {
-        "id": 1,
-        "texto": "Para mayor tranquilidad, instalá una alarma en tu casa, cerrojos en las puertas y asegurá los ventanales."
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "titulo": "Fenómenos Climatológicos",
-    "lista": [
-      {
-        "id": 0,
-        "texto": "Si se pronostica caída de granizo, bajá las persianas, recogé toldos y evitá salir de tu casa."
-      },
-      {
-        "id": 1,
-        "texto": "Ante una tormenta eléctrica, no te acerques a estructuras metálicas."
+        "texto": "Mantené actualizado el inventario de los productos que tenés en tu comercio y hacé copias de seguridad regularmente. Así será más sencillo si tuvieras que calcular eventuales pérdidas."
       }
     ]
   }

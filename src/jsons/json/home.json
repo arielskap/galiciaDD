@@ -1,8 +1,9 @@
 {
-    "altPrincipal":"familia",
-    "alt":"Seguro de Accidentes Personales",
-    "texto":"Pensá en ellos",
-    "className":"object-right-top",
-    "imgPrincipal":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/familia2.jpg",
-    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/seguroAccidentesWhite.png"
+    "altPrincipal":"Hombre seguro",
+    "alt":"Seguro Pyme",
+    "texto":"Hacé crecer tu negocio,",
+    "texto2":"nosotros lo cuidamos",
+    "className":"object-top",
+    "imgPrincipal":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/carpintero.jpg",
+    "img":"http://www.dynamicdoc.com.ar/galiciaSeguros/images/seguroPymeWhite.png"
 }

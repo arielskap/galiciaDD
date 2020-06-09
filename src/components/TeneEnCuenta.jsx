@@ -78,7 +78,7 @@ class TeneEnCuenta extends React.Component {
       <section className='prevencion__header-desktop lg:h-45vh'>
         <section className='prevencion__main__header pt-4 px-3 pb-10 lg:pb-0 lg:ml-4 lg:leading-tight'>
           <h2 className='main__header-titulo text-xl lg:text-2xl text-left lg:text-left'>
-            <span className='header-titulo-first montserrat-b lg:ml-24'>{json.title ? json.title : 'Tené en cuenta'}</span>
+            <span className='header-titulo-first montserrat-b lg:ml-24'>{json.title ? json.title : 'Tené en cuenta {{firstName}}'}</span>
             <br className='block' />
             lo que NO cubre tu póliza
           </h2>

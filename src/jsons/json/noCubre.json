@@ -1,4 +1,6 @@
 {
     "has":"texto",
-    "hr": true
+    "hr": true,
+    "goTo":".seguros",
+    "hasPreventipsConjunto": true
 }
